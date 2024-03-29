@@ -41,15 +41,7 @@ const worktimeline = [
 
 const skills = [
   {
-    name: 'React - Regular',
-    value: 80,
-  },
-  {
-    name: 'Redux, Redux-Toolkit, Redux-Observable, RxJS - Regular',
-    value: 80,
-  },
-  {
-    name: 'TypeScript, JavaScript - Regular',
+    name: 'React, Redux, Redux-Toolkit, Redux-Observable, RxJS, TypeScript, JavaScript - Regular',
     value: 80,
   },
   {
@@ -61,18 +53,14 @@ const skills = [
     value: 95,
   },
   {
-    name: 'Bootstrap, Ant Design, Tailwind, Material UI - Regular',
-    value: 75,
-  },
-  {
-    name: 'GIT, GitHub, Jira, Webpack - Regular',
+    name: 'Bootstrap, Ant Design, Tailwind, Material UI, GIT, GitHub, Jira, Webpack - Regular',
     value: 75,
   },
 ];
 
 const contactConfig = {
-  contact_email: 'anastasia.pranovych@gmail.com',
-  contact_phone: '+1(403) 992 0692',
+  contact_email: ' anastasia.pranovych@gmail.com',
+  contact_phone: ' +1 (403) 992-0692',
   description_first:
     'Please, contact me with Whatsapp, Telegram, Linkedin or email.',
   description_second: 'Because I may be out of the country.',

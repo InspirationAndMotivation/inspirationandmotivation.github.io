@@ -20,7 +20,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="5">
+          <Col lg="3">
             <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
           <Col lg="7">
@@ -40,7 +40,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          <Col lg="3">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">

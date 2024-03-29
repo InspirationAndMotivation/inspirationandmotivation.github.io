@@ -25,7 +25,7 @@ export const ContactMe = () => {
             <h3 className="color_sec py-4">Get in touch</h3>
             <div>
               <div className="text">
-                <strong>Email:</strong>{' '}
+                <strong>Email: </strong>{' '}
                 <a href={`mailto:${contactConfig.contact_email}`}>
                   {contactConfig.contact_email}
                 </a>
@@ -33,7 +33,7 @@ export const ContactMe = () => {
               <br />
               <br />
               <div className="d-flex flex-row text">
-                <strong>Phone:</strong>
+                <strong>Phone: </strong>
                 <p>{contactConfig.contact_phone}</p>
               </div>
               <br />
