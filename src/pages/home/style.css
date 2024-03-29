@@ -30,7 +30,6 @@ section {
   height: calc(100vh - 60px);
   min-height: 700px;
   height: 100vh;
-  margin-top: -10px;
 }
 
 .intro_sec .text,
@@ -39,7 +38,7 @@ section {
 }
 
 .intro_sec .intro {
-  max-width: 55rem;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
