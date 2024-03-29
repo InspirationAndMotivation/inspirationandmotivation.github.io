@@ -1,7 +1,8 @@
 .site__header {
   top: 0.5rem;
-  padding-inline: 10rem;
+  padding-inline: 6.75rem;
   font-size: 1.5rem;
+  background-color: var(--bg-color);
 }
 
 .cortina__wrapper-menu {

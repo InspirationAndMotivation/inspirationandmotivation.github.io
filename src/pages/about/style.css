@@ -1,10 +1,10 @@
 .about_page {
-  margin-block: 4rem;
+  margin-block: 2rem;
 }
 
 .sec_sp {
   margin-bottom: 4rem;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .table td,
@@ -17,7 +17,7 @@
 }
 
 .progress-title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   margin: 15px 0 20px;
   font-family: 'Raleway';
@@ -44,7 +44,7 @@
   position: absolute;
   top: -30px;
   right: 8px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   font-style: italic;
   color: var(--text-color);

@@ -18,7 +18,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center d-flex flex-row justify-content-around w-100">
-              <div className="intro mx-6">
+              <div className="intro mx-4">
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-4">
                   <Typewriter
