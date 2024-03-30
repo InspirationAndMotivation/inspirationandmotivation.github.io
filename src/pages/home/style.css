@@ -7,10 +7,15 @@ section {
   transition: all 0.5s ease-in;
 }
 
+.home_page {
+  flex-direction: row;
+}
+
 .main_picture {
   width: 25rem;
   height: 25rem;
   border-radius: 10px;
+  margin-block: 1rem;
 }
 
 .who_am_I {
@@ -184,4 +189,27 @@ section {
 
 .intro_sec .h_bg-image {
   filter: saturate(0.5);
+}
+
+@media (max-width: 768px) {
+  .intro_sec {
+    margin-top: 7rem;
+  }
+  .home_page {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .home_page {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .intro_btn-action {
+    display: flex;
+    flex-direction: row;
+  }
 }

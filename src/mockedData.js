@@ -1,4 +1,3 @@
-const logotext = 'A.Pranovych';
 const meta = {
   title: 'Anastasia Pranovych',
   description: 'Anastasia Pranovych, Frontend React Developer',
@@ -71,12 +70,4 @@ const socialprofils = {
   github: 'https://github.com/InspirationAndMotivation',
   linkedin: 'https://www.linkedin.com/in/anastasia-pranovych',
 };
-export {
-  meta,
-  worktimeline,
-  skills,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
+export { meta, worktimeline, skills, introdata, contactConfig, socialprofils };

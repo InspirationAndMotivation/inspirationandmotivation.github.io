@@ -14,7 +14,7 @@ export const ContactMe = () => {
           <title>{meta.title} | Contact</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-3 mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">Contact Me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
@@ -22,7 +22,7 @@ export const ContactMe = () => {
         </Row>
         <Row className="sec_sp w-100">
           <Col lg="5" className="mb-5 w-100">
-            <h3 className="color_sec py-4">Get in touch</h3>
+            <h3 className="color_sec pb-4">Get in touch</h3>
             <div>
               <div className="text">
                 <strong>Email: </strong>{' '}

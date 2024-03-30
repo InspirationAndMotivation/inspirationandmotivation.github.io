@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
-import { logotext } from '../mockedData';
 
 const Headermain = () => {
   const [isActive, setActive] = useState('false');
 
   const handleToggle = () => {
     setActive(!isActive);
-    document.body.classList.toggle('ovhidden');
   };
 
   return (
@@ -16,7 +14,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link className="navbar-brand nav_ac p-3" to="/">
-            {logotext}
+            <div className="logo"></div>
           </Link>
           <div className="menu__container p-3">
             <ul className="menu">

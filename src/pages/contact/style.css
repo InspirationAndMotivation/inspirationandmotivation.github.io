@@ -5,3 +5,9 @@
 .text {
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .contact_page {
+    margin-top: 7rem;
+  }
+}

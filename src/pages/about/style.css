@@ -3,7 +3,7 @@
 }
 
 .sec_sp {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 14px;
 }
 
@@ -19,7 +19,7 @@
 .progress-title {
   font-size: 14px;
   font-weight: 700;
-  margin: 15px 0 20px;
+  margin: 5px 0 40px;
   font-family: 'Raleway';
 }
 
@@ -28,7 +28,7 @@
   background: var(--secondary);
   border-radius: 0;
   box-shadow: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   overflow: visible;
 }
 
@@ -42,7 +42,7 @@
 
 .progress .progress-value {
   position: absolute;
-  top: -30px;
+  top: -25px;
   right: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -98,5 +98,11 @@
     opacity: 1;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .about_page {
+    margin-top: 7rem;
   }
 }

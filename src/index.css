@@ -15,9 +15,10 @@ body {
 
 body {
   margin: 0;
+  padding-inline: 5rem;
   height: 100%;
   overflow-x: hidden;
-  overflow-y: visible;
+  overflow-y: hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Raleway', sans-serif;
@@ -51,10 +52,6 @@ p {
   hyphens: auto;
 }
 
-.ovhidden {
-  overflow: hidden;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -66,4 +63,10 @@ code {
 
 .color_sec {
   color: var(--secondary-color);
+}
+
+@media (max-width: 1400px) {
+  body {
+    overflow-y: scroll;
+  }
 }
