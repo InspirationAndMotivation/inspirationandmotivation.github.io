@@ -1,8 +1,17 @@
 .site__header {
   top: 0.5rem;
   padding-inline: calc(15% - 60px);
-  font-size: 1.5rem;
+  font-size: 1rem;
+  height: 5rem;
   background-color: var(--bg-color);
+}
+
+.menu {
+  height: 5rem;
+}
+
+.menu__container {
+  margin-block: auto;
 }
 
 .cortina__wrapper-menu {
@@ -91,7 +100,9 @@
 }
 
 .logo {
+  background-repeat: no-repeat;
   background-image: url('../assets/images/pepper.png');
+  margin-block: auto;
   width: 4rem;
   height: 4rem;
 }

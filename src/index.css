@@ -10,12 +10,11 @@
 
 html,
 body {
-  height: 100%;
+  width: 100vw;
 }
 
 body {
-  margin: 0;
-  padding-inline: 5rem;
+  margin-inline: 60px;
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
