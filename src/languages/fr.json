@@ -46,7 +46,23 @@
             }
         },
         "mocked": {
-            "title": "Je Anastasia Pranovych"
+            "title": "Je Anastasia Pranovych",
+            "education": {
+                "school1": "School"
+            },
+            "projects": {
+                "type": {
+                    "commercial": "Projet commercial",
+                    "pet": "Pet projet"
+                },
+                "descriptions": {
+                    "project1": "L'objectif principal du projet était de développer une application Web permettant de planifier des réunions et des événements à partir de zéro sans utiliser aucune bibliothèque.",
+                    "project2": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé permettant de déboguer les tests et de détecter les régressions visuelles.",
+                    "project3": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé avec des fonctionnalités étendues pour tester les interfaces graphiques.",
+                    "project4": "L'objectif principal du projet était de développer une application Web permettant de commander en ligne et d'imprimer des sculptures 3D.",
+                    "project5": "L'objectif principal du projet était de développer une application mobile pour la location de véhicules (scooters, vélos, bateaux à moteur, voitures), une application Web pour gérer une application mobile et une application Web destinée à l'utilisation des clients."
+                }
+            }
         }
     }
 }

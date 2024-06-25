@@ -46,7 +46,23 @@
             }
         },
         "mocked": {
-            "title": "I’m Anastasia Pranovych"
+            "title": "I’m Anastasia Pranovych",
+            "education": {
+                "school1": "School"
+            },
+            "projects": {
+                "type": {
+                    "commercial": "Commercial project",
+                    "pet": "Pet project"
+                },
+                "descriptions": {
+                    "project1": "Main goal of the project was to develop web application for scheduling meetings and events from scratch without using any of libraries.",
+                    "project2": "Main goal of the project was to develop a web version of the automated testing tool that allow debug tests and detect visual regressions.",
+                    "project3": "Main goal of the project was to develop a web version of the automated testing tool with extensive functionalities for testing GUIs.",
+                    "project4": "Main goal of the project was to develop web application for ordering online and printing of the 3D Sculptures.",
+                    "project5": "Main goal of the project was to develop mobile app for vehicle renting (scooters, bicycles, motorboats, cars etc.), web app to manage mobile app & web app for client usage."
+                }
+            }
         }
     }
 }

@@ -46,7 +46,23 @@
             }
         },
         "mocked": {
-            "title": "Jestem Anastazją Pranovych"
+            "title": "Jestem Anastazją Pranovych",
+            "education": {
+                "school1": "School"
+            },
+            "projects": {
+                "type": {
+                    "commercial": "Projekt komercyjny",
+                    "pet": "Pet projekt"
+                },
+                "descriptions": {
+                    "project1": "Głównym celem projektu było stworzenie od podstaw aplikacji internetowej umożliwiającej planowanie spotkań i wydarzeń, bez korzystania z bibliotek.",
+                    "project2": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania, które umożliwia debugowanie testów i wykrywanie regresji wizualnych.",
+                    "project3": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania z rozbudowanymi funkcjonalnościami do testowania GUI.",
+                    "project4": "Głównym celem projektu było stworzenie aplikacji internetowej umożliwiającej zamówienie on-line wydrukowanych na 3D drukarce rzeźb.",
+                    "project5": "Głównym celem projektu było opracowanie aplikacji mobilnej do wynajmu pojazdów (skuterów, rowerów, łodzi motorowych, samochodów itp.), aplikacji internetowej do zarządzania aplikacją mobilną oraz aplikacji internetowej do użytku klienta."
+                }
+            }
         }
     }
 }

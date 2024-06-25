@@ -13,6 +13,7 @@ const Header = () => {
   };
 
   const handleChangeLanguage = (event) => {
+    localStorage.setItem("selectedLanguage", event.target.value);
     i18n.changeLanguage(event.target.value);
     handleStylingFixes(event.target.value);
   }
