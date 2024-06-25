@@ -16,8 +16,7 @@ body {
 body {
   margin-inline: 60px;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Raleway', sans-serif;
@@ -64,8 +63,8 @@ code {
   color: var(--secondary-color);
 }
 
-@media (max-width: 1400px) {
+@media (min-height: 760px) {
   body {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 }

@@ -33,8 +33,16 @@ export const ContactMe = () => {
               <br />
               <br />
               <div className="d-flex flex-row text">
-                <strong>Phone: </strong>
-                <p>{contactConfig.contact_phone}</p>
+                <strong>Phone: </strong>{' '}
+                <a href={`tel:${contactConfig.contact_phone}`}>
+                  {contactConfig.contact_phone}
+                </a>
+              </div>
+              <br />
+              <br />
+              <div className="d-flex flex-row text">
+                <strong>Location: </strong>{' '}
+                <p>{contactConfig.contact_address}</p>
               </div>
               <br />
               <br />

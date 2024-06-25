@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
 
-const Headermain = () => {
+const Header = () => {
   const [isActive, setActive] = useState('false');
 
   const handleToggle = () => {
@@ -19,13 +19,18 @@ const Headermain = () => {
           <div className="menu__container p-3">
             <ul className="menu">
               <li className="menu_item ">
-                <Link onClick={handleToggle} to="/" className="my-3">
+                <Link onClick={handleToggle} to={'/'} className="my-3">
                   Home
                 </Link>
               </li>
               <li className="menu_item">
                 <Link onClick={handleToggle} to="/about" className="my-3">
                   About
+                </Link>
+              </li>{' '}
+              <li className="menu_item">
+                <Link onClick={handleToggle} to="/portfolio" className="my-3">
+                  Portfolio
                 </Link>
               </li>
               <li className="menu_item">
@@ -42,4 +47,4 @@ const Headermain = () => {
   );
 };
 
-export default Headermain;
+export default Header;

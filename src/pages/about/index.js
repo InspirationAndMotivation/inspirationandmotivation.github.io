@@ -2,7 +2,12 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { meta, worktimeline, skills } from '../../mockedData';
+import {
+  meta,
+  worktimeline,
+  educationtimeline,
+  skills,
+} from '../../mockedData';
 
 export const About = () => {
   return (
@@ -20,16 +25,42 @@ export const About = () => {
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="3">
+          <Col lg="2">
             <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
+                      <th scope="row" width={'35%'}>
+                        {data.jobtitle}
+                      </th>
+                      <td width={'20%'}>{data.employer}</td>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="2">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="9">
+            <table className="table caption-top">
+              <tbody>
+                {educationtimeline.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row" width={'35%'}>
+                        {data.school}
+                      </th>
+                      <td width={'20%'}>{data.degree}</td>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
@@ -40,27 +71,29 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="3">
+          <Col lg="2">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
+          <Col lg="9">
+            <div className="skill_container">
+              {skills.map((data, i) => {
+                return (
+                  <div key={i} className="skill_box">
+                    <div className="skill_title">
+                      <div className="skill_img">
+                        <img
+                          src={require(`../../assets/images/skills/${data.img_name.toString()}`)}
+                          alt={data.alt}
+                          className="skill_img"
+                        ></img>
+                      </div>
+                      <h5>{data.name}</h5>
                     </div>
+                    <p>{data.info}</p>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </Col>
         </Row>
       </Container>
