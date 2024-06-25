@@ -85,7 +85,7 @@ const skills = [
     img_name: 'react.png',
     alt: 'React',
     name: 'React',
-    info: 'React, React-testing-library, React-router-dom, React Hooks',
+    info: 'React, React-testing-library, React-router-dom, React Hooks, React Forms',
   },
   {
     img_name: 'redux.png',
@@ -130,12 +130,6 @@ const skills = [
     info: 'Javascript',
   },
   {
-    img_name: 'nodejs.png',
-    alt: 'Nodejs',
-    name: 'Node.js',
-    info: 'Node.js',
-  },
-  {
     img_name: 'bootstrap.png',
     alt: 'Bootstrap',
     name: 'Bootstrap',
@@ -154,6 +148,18 @@ const skills = [
     info: 'Material UI',
   },
   {
+    img_name: 'primereact.png',
+    alt: 'Primereact',
+    name: 'Primereact',
+    info: 'Primereact',
+  },
+  {
+    img_name: 'nodejs.png',
+    alt: 'Nodejs',
+    name: 'Node.js',
+    info: 'Node.js',
+  },
+  {
     img_name: 'github.png',
     alt: 'GitHub',
     name: 'GitHub',
@@ -163,29 +169,37 @@ const skills = [
     img_name: 'jira.png',
     alt: 'Jira',
     name: 'Jira',
-    info: 'Jira',
+    info: 'Jira, Confluence, Scrum Poker',
+  },
+  {
+    img_name: 'figma.png',
+    alt: 'Figma',
+    name: 'Figma',
+    info: 'Figma',
+  },
+  {
+    img_name: 'sketch.png',
+    alt: 'Sketch',
+    name: 'Sketch',
+    info: 'Sketch',
+  },
+  {
+    img_name: 'jest.png',
+    alt: 'Jest',
+    name: 'Jest',
+    info: 'Jest',
   },
 ];
 
 const projects = [
   {
-    name: 'Dropie',
-    type: 'Commercial project',
+    name: 'Scheduler',
+    type: 'Pet project',
     description:
-      'Main goal of the project was to develop mobile app for vehicle renting (scooters, bicycles, motorboats, cars etc.), web app to manage mobile app & web app for client usage.',
-    link: 'https://dropie.co/',
-    image: 'Dropie.png',
-    stack: 'JavaScript, HTML, CSS/SCSS, Ant Design, React, Webpack, Gulp',
-  },
-  {
-    name: 'TestComplete',
-    type: 'Commercial project',
-    description:
-      'Main goal of the project was to develop a web version of the automated testing tool with extensive functionalities for testing GUIs.',
-    link: 'https://smartbear.com/product/testcomplete/',
-    image: 'TestComplete.png',
-    stack:
-      'React, Typescript, Redux, HTML5, CSS/SCSS, Tailwind, Electron, I18next, GIT',
+      'Main goal of the project was to develop web application for scheduling meetings and events from scratch without using any of libraries.',
+    link: 'https://github.com/InspirationAndMotivation/Scheduler',
+    image: 'Scheduler_light.png',
+    stack: 'React, TypeScript, SCSS, HTML, JavaScript, CSS',
   },
   {
     name: 'VisualTest',
@@ -198,13 +212,32 @@ const projects = [
       'React, Typescript, Redux, RXJS, HTML5, CSS/SCSS, Jest, React Testing Library, MaterialUI, Primereact, GIT, I18next',
   },
   {
-    name: 'Scheduler',
-    type: 'Pet project',
+    name: 'TestComplete',
+    type: 'Commercial project',
     description:
-      'Main goal of the project was to develop web application for scheduling meetings and events from scratch without using any of libraries.',
-    link: 'https://github.com/InspirationAndMotivation/Scheduler',
-    image: 'Scheduler_light.png',
-    stack: 'React, TypeScript, SCSS, HTML, JavaScript, CSS',
+      'Main goal of the project was to develop a web version of the automated testing tool with extensive functionalities for testing GUIs.',
+    link: 'https://smartbear.com/product/testcomplete/',
+    image: 'TestComplete.png',
+    stack:
+      'React, Typescript, Redux, HTML5, CSS/SCSS, Tailwind, Electron, I18next, GIT',
+  },
+  {
+    name: 'I.Materialise',
+    type: 'Commercial project',
+    description:
+      'Main goal of the project was to develop web application for ordering online and printing of the 3D Sculptures.',
+    link: 'https://i.materialise.com/en/3dprint',
+    image: 'Imaterialise.png',
+    stack: 'React, Typescript, Redux, React Hooks, HTML5, CSS/SCSS, Three.js, MaterialUI, GIT',
+  },
+  {
+    name: 'Dropie',
+    type: 'Commercial project',
+    description:
+      'Main goal of the project was to develop mobile app for vehicle renting (scooters, bicycles, motorboats, cars etc.), web app to manage mobile app & web app for client usage.',
+    link: 'https://dropie.co/',
+    image: 'Dropie.png',
+    stack: 'JavaScript, HTML, CSS/SCSS, Ant Design, React, Webpack, Gulp',
   },
 ];
 
