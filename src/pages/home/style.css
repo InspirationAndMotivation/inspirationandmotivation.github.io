@@ -192,8 +192,9 @@ section {
 
 @media (max-width: 768px) {
   .intro_sec {
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
+
   .home_page {
     flex-direction: column;
     margin-top: 1rem;
@@ -210,5 +211,39 @@ section {
   .intro_btn-action {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-right: 5rem !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .intro p {
+    font-size: 1.25rem;
+  }
+
+  .intro_sec {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro p {
+    font-size: 0.8rem;
+  }
+
+  .main_picture {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .main_picture {
+    width: 14rem;
+    height: 14rem;
   }
 }

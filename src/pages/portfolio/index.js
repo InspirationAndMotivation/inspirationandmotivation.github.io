@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export const Portfolio = () => {
   return (
     <HelmetProvider>
-      <Container className="contact_page">
+      <Container className="portfolio_page">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Portfolio</title>
@@ -20,7 +20,7 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <Row className="sec_sp w-100">
-          <Col lg="5" className="mb-5 w-100">
+          <Col lg="5" className="mb-5 w-100 projects">
             <h4>
               Here are some of the projects I've worked on over the past several
               years

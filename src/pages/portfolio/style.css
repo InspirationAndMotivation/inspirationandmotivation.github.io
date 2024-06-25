@@ -1,9 +1,5 @@
-.contact_page {
+.portfolio_page {
   margin-block: 2rem;
-}
-
-.text {
-  font-size: 20px;
 }
 
 .project_container {
@@ -34,8 +30,8 @@
   margin: 0.5rem;
 }
 
-.project_box:hover > .project_title:after,
-.project_box:hover > .project_title:before {
+.project_box:hover>.project_title:after,
+.project_box:hover>.project_title:before {
   width: 35px;
 }
 
@@ -82,20 +78,26 @@
 @media screen and (max-width: 1600px) {
   .project_container {
     grid-template-columns: repeat(3, 1fr);
-    padding: 2rem 50px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .project_container {
     grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .project_container {
     grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 50px;
+  }
+
+  .portfolio_page {
+    margin-top: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-right: 3rem;
   }
 }

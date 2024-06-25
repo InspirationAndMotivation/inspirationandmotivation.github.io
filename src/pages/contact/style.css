@@ -4,10 +4,11 @@
 
 .text {
   font-size: 20px;
+  margin-right: 3rem;
 }
 
-@media (max-width: 768px) {
-  .contact_page {
-    margin-top: 7rem;
+@media (max-width: 450px) {
+  .text {
+    font-size: 1rem !important;
   }
 }
