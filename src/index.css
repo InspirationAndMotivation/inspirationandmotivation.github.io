@@ -16,7 +16,7 @@ body {
 body {
   margin-inline: 60px;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Raleway', sans-serif;
