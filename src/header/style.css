@@ -1,6 +1,6 @@
 .site__header {
   top: 0.5rem;
-  padding-inline: calc(15% - 60px);
+  padding-inline: calc(17% - 60px);
   font-size: 1rem;
   height: 5rem;
   background-color: var(--bg-color);
@@ -97,6 +97,27 @@
   color: var(--text-color-3);
 }
 
+.lg_select {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  margin-block: 1rem;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  min-width: 32px;
+  min-height: 18px;
+  text-align: center;
+  padding: 0.1rem 0.3rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--text-color);
+  border-radius: 0.25rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
 .logo {
   background-repeat: no-repeat;
   background-image: url('../assets/images/pepper.png');
@@ -152,14 +173,32 @@
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 660px) {
   .menu .menu_item>a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  select {
+    font-size: 12px;
+    padding: auto;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .menu .menu_item>a {
     font-size: 0.9rem;
+  }
+
+  select {
+    font-size: 10px;
+    padding: auto;
+  }
+}
+
+@media (max-width: 370px) {
+
+  .about,
+  .contact {
+    display: none;
   }
 }

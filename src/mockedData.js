@@ -4,7 +4,6 @@ const meta = {
 };
 
 const introdata = {
-  title: 'I’m Anastasia Pranovych',
   animated: {
     first: 'I am React Software Developer',
     second: 'I love coding',
@@ -12,12 +11,6 @@ const introdata = {
     fourth: 'Nice to meet you!',
     fifth: 'You found the EASTER EGG!',
   },
-  description_first: `My name is Anastasia, I have been working in Frontend development for about 3 years.`,
-  description_second: `I mainly use React, but in the future I want to acquire Backend development as well to become
-  a full-fledged FullStack developer. I am into new technologies, so I really love AI and its evolution,
-  so I would like to use it in my working life.`,
-  description_third: `In parallel with this, I am also interested in design and drawing, so sometimes I create some illustrations
-    and icons by myself, as well as designs for the web-sites I work on.`,
 };
 
 const worktimeline = [
@@ -245,15 +238,21 @@ const contactConfig = {
   contact_email: ' anastasia.pranovych@gmail.com',
   contact_phone: ' +1 (403) 992-0692',
   contact_address: ' Canada, Calgary, T2N 1V9',
-  description_first: 'Please, contact me with Whatsapp, Linkedin or email.',
-  description_second: 'Because I may be out of the country.',
-  description_third: 'Thank you!',
 };
 
 const socialprofils = {
   github: 'https://github.com/InspirationAndMotivation',
   linkedin: 'https://www.linkedin.com/in/anastasia-pranovych',
 };
+
+const languages = {
+  en: 'en',
+  fr: 'fr',
+  pl: 'pl',
+  ru: 'ru',
+  ua: 'ua'
+}
+
 export {
   meta,
   worktimeline,
@@ -263,4 +262,5 @@ export {
   introdata,
   contactConfig,
   socialprofils,
+  languages
 };

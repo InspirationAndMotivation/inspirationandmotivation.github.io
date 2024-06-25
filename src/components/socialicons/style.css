@@ -4,7 +4,7 @@
   width: 20px;
   height: 200px;
   position: fixed;
-  margin-top: -100px;
+  margin-top: -180px;
 }
 
 .stick_follow_icon ul {
@@ -20,7 +20,7 @@
 }
 
 .stick_follow_icon p {
-  top: 140px;
+  top: 150px;
   left: -24px;
   width: 68px;
   height: 20px;
@@ -50,4 +50,20 @@
   display: block;
   position: absolute;
   background-color: var(--text-color);
+}
+
+@media (max-width: 500px) {
+  .stick_follow_icon {
+    display: none;
+  }
+
+  .site__header {
+    justify-content: start !important;
+    padding-inline: 0 !important;
+    margin: 0 !important;
+  }
+
+  .p-3 {
+    padding: 0 !important;
+  }
 }

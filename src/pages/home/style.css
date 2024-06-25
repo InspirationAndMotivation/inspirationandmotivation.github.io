@@ -15,7 +15,7 @@ section {
   width: 20rem;
   height: 20rem;
   border-radius: 10px;
-  margin-block: 1rem;
+  margin: 1rem 3rem 1rem 0rem;
 }
 
 .who_am_I {
@@ -192,7 +192,7 @@ section {
 
 @media (max-width: 768px) {
   .intro_sec {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .home_page {
@@ -226,7 +226,7 @@ section {
   }
 
   .intro_sec {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 

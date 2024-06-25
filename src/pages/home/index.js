@@ -4,9 +4,12 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Typewriter from 'typewriter-effect';
 import { introdata, meta } from '../../mockedData';
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 import mainImage from '../../assets/images/main_image.png';
 
 export const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -19,7 +22,7 @@ export const Home = () => {
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="home_page align-self-center d-flex justify-content-around w-100">
               <div className="intro mx-3">
-                <h2 className="mb-1x">{introdata.title}</h2>
+                <h2 className="mb-1x">{t('pages.home.introdata.title')}</h2>
                 <h1 className="fluidz-48 mb-4">
                   <Typewriter
                     options={{
@@ -36,13 +39,13 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-2">{introdata.description_first}</p>
-                <p className="mb-2">{introdata.description_second}</p>
-                <p className="mb-5">{introdata.description_third}</p>
+                <p className="mb-2">{t('pages.home.introdata.firstLine')}</p>
+                <p className="mb-2">{t('pages.home.introdata.secondLine')}</p>
+                <p className="mb-5">{t('pages.home.introdata.thirdLine')}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/about">
                     <div id="button_p" className="ac_btn btn ">
-                      About me
+                      {t('pages.home.abtButton')}
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -50,7 +53,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_p" className="ac_btn btn ">
-                      Contact me
+                      {t('pages.home.cntButton')}
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -58,7 +61,7 @@ export const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="mx-4">
+              <div className="mx-3">
                 <img
                   src={mainImage}
                   alt="My Avatar"

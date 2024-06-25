@@ -1,0 +1,52 @@
+{
+    "translation": {
+        "social": {
+            "follow": "Follow Me"
+        },
+        "header": {
+            "home": "Home",
+            "about": "About",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        },
+        "pages": {
+            "about": {
+                "title": "About",
+                "me": "About me",
+                "workTimeline": "Work Timeline",
+                "education": "Education",
+                "skills": "Skills"
+            },
+            "contact": {
+                "title": "Contact",
+                "me": "Contact Me",
+                "getInTouch": "Get in touch",
+                "email": "Email: ",
+                "phone": "Phone: ",
+                "location": "Location: ",
+                "descFirstLine": "Please, contact me via Whatsapp, Linkedin or email.",
+                "descSecondLine": "Because I may be out of the country.",
+                "descThirdLine": "Thank you!"
+            },
+            "home": {
+                "title": "Home",
+                "abtButton": "About me",
+                "cntButton": "Contact me",
+                "introdata": {
+                    "title": "I’m Anastasia Pranovych",
+                    "firstLine": "My name is Anastasia, I have been working in Frontend development for about 4 years.",
+                    "secondLine": "I mainly use React, but in the future I want to acquire Backend development as well to become a full-fledged FullStack developer. I am into new technologies, so I really love AI and its evolution, so I would like to use it in my working life.",
+                    "thirdLine": "In parallel with this, I am also interested in design and drawing, so sometimes I create some illustrations and icons by myself, as well as designs for the web-sites I work on."
+                }
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "projectsInfo": "Here are some of the projects I've worked on over the past several years",
+                "stack": "Stack:"
+            }
+        },
+        "mocked": {
+            "title": "I’m Anastasia Pranovych"
+        }
+    }
+}

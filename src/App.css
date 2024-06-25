@@ -23,3 +23,9 @@
   transform: translateY(-130%);
   transition: all 400ms ease-out;
 }
+
+@media (max-width: 500px) {
+  body {
+    margin-inline: 30px !important;
+  }
+}
