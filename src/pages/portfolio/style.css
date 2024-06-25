@@ -79,7 +79,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1600px) {
   .project_container {
     grid-template-columns: repeat(3, 1fr);
     padding: 2rem 50px;
