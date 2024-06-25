@@ -61,7 +61,7 @@ export const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="mx-4">
+              <div className="mx-3">
                 <img
                   src={mainImage}
                   alt="My Avatar"

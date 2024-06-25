@@ -244,6 +244,15 @@ const socialprofils = {
   github: 'https://github.com/InspirationAndMotivation',
   linkedin: 'https://www.linkedin.com/in/anastasia-pranovych',
 };
+
+const languages = {
+  en: 'en',
+  fr: 'fr',
+  pl: 'pl',
+  ru: 'ru',
+  ua: 'ua'
+}
+
 export {
   meta,
   worktimeline,
@@ -253,4 +262,5 @@ export {
   introdata,
   contactConfig,
   socialprofils,
+  languages
 };

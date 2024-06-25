@@ -1,5 +1,52 @@
 {
     "translation": {
-        "specificKey": "Translated Value"
+        "social": {
+            "follow": "S'abonner"
+        },
+        "header": {
+            "home": "Accueil",
+            "about": "Sur moi",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        },
+        "pages": {
+            "about": {
+                "title": "Sur moi",
+                "me": "Sur moi",
+                "workTimeline": "Expérience professionnelle",
+                "education": "Formation",
+                "skills": "Сompétences"
+            },
+            "contact": {
+                "title": "Contact",
+                "me": "Contact",
+                "getInTouch": "Restons en contact",
+                "email": "Email: ",
+                "phone": "Téléphone: ",
+                "location": "Adresse: ",
+                "descFirstLine": "Veuillez me contacter via Whatsapp, Linkedin ou par e-mail.",
+                "descSecondLine": "Puisque je peux être à l'étranger.",
+                "descThirdLine": "Merci beaucoup!"
+            },
+            "home": {
+                "title": "Accueil",
+                "abtButton": "Sur moi",
+                "cntButton": "Contact",
+                "introdata": {
+                    "title": "Je Anastasia Pranovych",
+                    "firstLine": "Je m'appelle Anastasia et je travaille dans le développement Frontend depuis près de 4 ans.",
+                    "secondLine": "J'utilise principalement React, mais à l'avenir je souhaite également maîtriser le développement Backend pour devenir un développeur FullStack à part entière. Je suis passionné par les nouvelles technologies et j'aime beaucoup l'IA et son évolution, j'aimerais donc l'utiliser dans mon travail car je pense que c'est l'avenir.",
+                    "thirdLine": "De plus, je m'intéresse au design et au dessin afin de mieux comprendre les clients et designers avec qui je collabore. Et parfois, je crée moi-même certaines illustrations et icônes, ainsi que des designs pour les sites Web sur lesquels je travaille."
+                }
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "projectsInfo": "Voici quelques-uns des projets sur lesquels j'ai travaillé au cours des dernières années.",
+                "stack": "Stack:"
+            }
+        },
+        "mocked": {
+            "title": "Je Anastasia Pranovych"
+        }
     }
 }

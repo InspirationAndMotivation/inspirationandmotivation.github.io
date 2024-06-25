@@ -1,5 +1,52 @@
 {
     "translation": {
-        "specificKey": "Translated Value"
+        "social": {
+            "follow": "Subskrybuj"
+        },
+        "header": {
+            "home": "Główna",
+            "about": "O mnie",
+            "portfolio": "Portfolio",
+            "contact": "Kontakt"
+        },
+        "pages": {
+            "about": {
+                "title": "O mnie",
+                "me": "O mnie",
+                "workTimeline": "Doświadczenie zawodowe",
+                "education": "Wykształcenie",
+                "skills": "Moje kompetencje"
+            },
+            "contact": {
+                "title": "Kontakt",
+                "me": "Kontakt",
+                "getInTouch": "Bądź ze mną w kontakcie!",
+                "email": "Email: ",
+                "phone": "Telefon: ",
+                "location": "Lokalizacja: ",
+                "descFirstLine": "Proszę kontaktować się ze mną za pośrednictwem Whatsapp, Linkedin lub pisać na pocztę.",
+                "descSecondLine": "Ponieważ ja mogę być poza krajem.",
+                "descThirdLine": "Ślicznie dziękuję i życzę miłego dnia!"
+            },
+            "home": {
+                "title": "Główna",
+                "abtButton": "O mnie",
+                "cntButton": "Kontaktuj",
+                "introdata": {
+                    "title": "Jestem Anastazją Pranovych",
+                    "firstLine": "Nazywam się Anastazja, pracuję w branży Frontend Development od blisko 4 lat.",
+                    "secondLine": "Głównie używam React, ale w przyszłości chcę rozwijać się także jako Backend developer, aby zostać pełnoprawnym FullStack programistą. Fascynują mnie nowe technologie w tym bardzo podoba mi się sztuczna inteligencja i jej ewolucja, dlatego chciałabym ją wykorzystywać również w swoim życiu zawodowym.",
+                    "thirdLine": "Jednocześnie z tym interesuję się designem i rysunkiem, dlatego czasami samodzielnie tworzę ilustracje i ikony, a także projekty stron internetowych, nad którymi pracuję. To pomaga mi lepiej rozumieć co chcę klient lub designer oraz jak to zaimplementować."
+                }
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "projectsInfo": "Tutaj są przedstawione niektóre projekty, nad którymi pracowałam przez ostatnie kilka lat.",
+                "stack": "Stack:"
+            }
+        },
+        "mocked": {
+            "title": "Jestem Anastazją Pranovych"
+        }
     }
 }
