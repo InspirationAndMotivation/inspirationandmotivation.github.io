@@ -20,7 +20,6 @@
   padding-top: 5em;
   padding-bottom: 3em;
   height: 100%;
-  overflow-y: auto;
 }
 
 .site__navigation {
@@ -74,7 +73,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden auto;
 }
 
 .menu {
