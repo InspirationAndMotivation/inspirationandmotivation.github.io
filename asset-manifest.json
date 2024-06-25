@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce342d13.css",
-    "main.js": "/static/js/main.91796c20.js",
+    "main.css": "/static/css/main.151c24aa.css",
+    "main.js": "/static/js/main.0555f678.js",
     "static/media/Dropie.png": "/static/media/Dropie.3d610535242b4eaf50c5.png",
     "static/media/main_image.png": "/static/media/main_image.a4e85b5be16e930b2103.png",
     "static/media/TestComplete.png": "/static/media/TestComplete.91a8c72b33c71a45b0fb.png",
     "static/media/VisualTest.png": "/static/media/VisualTest.93d127eb44f1314a9b4a.png",
+    "static/media/primereact.png": "/static/media/primereact.5fa279a49ec6507abd43.png",
+    "static/media/sketch.png": "/static/media/sketch.e35c686f78b2e1ecf22d.png",
+    "static/media/Imaterialise.png": "/static/media/Imaterialise.84b8fbe32f45dd18c568.png",
     "static/media/rxjs.png": "/static/media/rxjs.772ad85aa2f86471d69e.png",
     "static/media/Scheduler_dark.png": "/static/media/Scheduler_dark.fe638f63dff1180c7356.png",
     "static/media/redux.png": "/static/media/redux.f6cc553b26774b84e899.png",
@@ -13,6 +16,7 @@
     "static/media/python.png": "/static/media/python.193f1df8f797717c1bfd.png",
     "static/media/github.png": "/static/media/github.77c957a1e36f1863da2f.png",
     "static/media/react.png": "/static/media/react.4fe3c9c3208b8c6ba8a7.png",
+    "static/media/jest.png": "/static/media/jest.0be7bf05a658c24d519f.png",
     "static/media/nodejs.png": "/static/media/nodejs.88c51875a80e9aeb347e.png",
     "static/media/javascript.png": "/static/media/javascript.25d6bca65c54200cffc9.png",
     "static/media/jira.png": "/static/media/jira.0e0c719690d01223f723.png",
@@ -20,14 +24,15 @@
     "static/media/css.png": "/static/media/css.29de359e738525309045.png",
     "static/media/tailwind.png": "/static/media/tailwind.3ab67f3d9112d4ff790b.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.caf51822de322a975701.png",
+    "static/media/figma.png": "/static/media/figma.2ff4a8adb13dfa32dead.png",
     "static/media/typescript.png": "/static/media/typescript.492e2cd524f1a99b9faa.png",
     "static/media/sass.png": "/static/media/sass.a1ab75bbe28f7a98bc94.png",
     "index.html": "/index.html",
-    "main.ce342d13.css.map": "/static/css/main.ce342d13.css.map",
-    "main.91796c20.js.map": "/static/js/main.91796c20.js.map"
+    "main.151c24aa.css.map": "/static/css/main.151c24aa.css.map",
+    "main.0555f678.js.map": "/static/js/main.0555f678.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce342d13.css",
-    "static/js/main.91796c20.js"
+    "static/css/main.151c24aa.css",
+    "static/js/main.0555f678.js"
   ]
 }
