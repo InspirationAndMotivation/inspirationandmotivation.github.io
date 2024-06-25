@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import './style.css';
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import './style.css';
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isActive, setActive] = useState('false');
 
   const handleToggle = () => {
@@ -20,23 +22,23 @@ const Header = () => {
             <ul className="menu">
               <li className="menu_item ">
                 <Link onClick={handleToggle} to={'/'} className="my-3">
-                  Home
+                  {t('header.home')}
                 </Link>
               </li>
               <li className="menu_item">
                 <Link onClick={handleToggle} to="/about" className="my-3">
-                  About
+                  {t('header.about')}
                 </Link>
               </li>{' '}
               <li className="menu_item">
                 <Link onClick={handleToggle} to="/portfolio" className="my-3">
-                  Portfolio
+                  {t('header.portfolio')}
                 </Link>
               </li>
               <li className="menu_item">
                 <Link onClick={handleToggle} to="/contact" className="my-3">
                   {' '}
-                  Contact
+                  {t('header.contact')}
                 </Link>
               </li>
             </ul>

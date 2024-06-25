@@ -4,6 +4,7 @@ import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import withRouter from './hooks/withRouter';
 import AppRoutes from './routes';
 import Header from './header';
+import './hooks/i18n';
 import './App.css';
 
 export default function App() {
