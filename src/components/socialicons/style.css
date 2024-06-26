@@ -52,13 +52,12 @@
   background-color: var(--text-color);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .stick_follow_icon {
     display: none;
   }
 
   .site__header {
-    justify-content: start !important;
     padding-inline: 0 !important;
     margin: 0 !important;
   }

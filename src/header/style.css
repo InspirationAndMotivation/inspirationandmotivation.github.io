@@ -1,13 +1,13 @@
 .site__header {
-  top: 0.5rem;
   padding-inline: calc(17% - 60px);
   font-size: 1rem;
-  height: 5rem;
+  height: 5.5rem;
   background-color: var(--bg-color);
 }
 
 .menu {
   height: 5rem;
+  justify-content: space-between;
 }
 
 .menu__container {
@@ -166,6 +166,10 @@ select {
     display: none;
   }
 
+  .menu {
+    justify-content: unset;
+  }
+
   .menu__container {
     display: flex;
     justify-content: center;
@@ -195,7 +199,7 @@ select {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
 
   .about,
   .contact {

@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       <header className="fixed-top site__header">
-        <div className="d-flex align-items-center justify-content-between menu">
+        <div className="d-flex align-items-center menu">
           <Link className="navbar-brand nav_ac p-3" to="/">
             <div className="logo"></div>
           </Link>

@@ -24,7 +24,7 @@
   transition: all 400ms ease-out;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body {
     margin-inline: 30px !important;
   }

@@ -9,6 +9,8 @@ section {
 
 .home_page {
   flex-direction: row;
+  margin-block: 2rem;
+  padding-bottom: 2rem;
 }
 
 .main_picture {
@@ -190,6 +192,14 @@ section {
   filter: saturate(0.5);
 }
 
+@media (max-width: 1400px) {
+  .intro_btn-action {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
 @media (max-width: 768px) {
   .intro_sec {
     margin-top: 3rem;
@@ -199,22 +209,7 @@ section {
     flex-direction: column;
     margin-top: 1rem;
   }
-}
 
-@media (max-width: 1100px) {
-  .home_page {
-    margin-top: 4rem;
-  }
-}
-
-@media (max-width: 1400px) {
-  .intro_btn-action {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-@media (max-width: 768px) {
   .intro {
     margin-right: 5rem !important;
   }
