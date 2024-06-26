@@ -9,8 +9,9 @@ section {
 
 .home_page {
   flex-direction: row;
-  margin-block: 2rem;
-  padding-bottom: 2rem;
+  align-items: center;
+  margin-block: 4rem;
+  padding-bottom: 4rem;
 }
 
 .main_picture {
@@ -31,11 +32,6 @@ section {
 .btn-about a {
   color: var(--text-color);
   text-decoration: none;
-}
-
-.intro_sec {
-  max-height: 700px;
-  height: 100vh;
 }
 
 .intro_sec .text,
@@ -213,6 +209,10 @@ section {
   .intro {
     margin-right: 5rem !important;
   }
+
+  .main_picture {
+    margin: 0rem 3rem 0rem 0rem;
+  }
 }
 
 @media (max-width: 530px) {
@@ -223,16 +223,16 @@ section {
   .intro_sec {
     margin-top: 3rem;
   }
+
+  .main_picture {
+    width: 18rem;
+    height: 18rem;
+  }
 }
 
 @media (max-width: 500px) {
   .intro p {
     font-size: 0.8rem;
-  }
-
-  .main_picture {
-    width: 18rem;
-    height: 18rem;
   }
 }
 

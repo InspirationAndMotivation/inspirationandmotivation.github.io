@@ -61,7 +61,7 @@ export const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="mx-3">
+              <div className="mx-3 align-items-baseline">
                 <img
                   src={mainImage}
                   alt="My Avatar"

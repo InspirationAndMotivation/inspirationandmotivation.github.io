@@ -177,20 +177,20 @@ select {
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 685px) {
   .menu .menu_item>a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   select {
-    font-size: 12px;
+    font-size: 0.9rem;
     padding: auto;
   }
 }
 
 @media (max-width: 560px) {
   .menu .menu_item>a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   select {

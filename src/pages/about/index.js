@@ -30,7 +30,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="2">
+          <Col lg="3">
             <h3 className="color_sec py-4">
               {t('pages.about.workTimeline')}
             </h3>
@@ -55,7 +55,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className=" sec_sp">
-          <Col lg="2">
+          <Col lg="3">
             <h3 className="color_sec py-4">
               {t('pages.about.education')}
             </h3>
@@ -80,7 +80,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="2">
+          <Col lg="3">
             <h3 className="color_sec py-4">
               {t('pages.about.skills')}
             </h3>

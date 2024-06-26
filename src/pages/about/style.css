@@ -131,13 +131,13 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .skill_container {
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
   .skill_container {
     grid-template-columns: repeat(4, 1fr);
   }

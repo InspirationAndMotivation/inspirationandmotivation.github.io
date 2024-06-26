@@ -1,4 +1,3 @@
-
 const meta = {
   title: 'Anastasia Pranovych',
   description: 'Anastasia Pranovych, Frontend React Developer',
