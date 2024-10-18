@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { meta, projects } from '../../mockedData';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export const Portfolio = () => {
@@ -13,7 +13,9 @@ export const Portfolio = () => {
       <Container className="portfolio_page">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{meta.title} | {t('pages.portfolio.title')}</title>
+          <title>
+            {meta.title} | {t('pages.portfolio.title')}
+          </title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-3 mt-3 pt-md-3">
@@ -24,9 +26,7 @@ export const Portfolio = () => {
         </Row>
         <Row className="sec_sp w-100">
           <Col lg="5" className="mb-5 w-100 projects">
-            <h4>
-              {t('pages.portfolio.projectsInfo')}
-            </h4>
+            <h4>{t('pages.portfolio.projectsInfo')}</h4>
             <div className="project_container">
               {projects.map((data, i) => {
                 return (

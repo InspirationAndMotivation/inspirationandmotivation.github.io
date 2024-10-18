@@ -186,6 +186,25 @@ const skills = [
 
 const projects = [
   {
+    name: 'Memory game',
+    type: 'Pet project',
+    description:
+      'Main goal of the project was to develop web version of memory game, where you need to find pairs for every picture. Im planning to implement few more mods with higher difficulty and few more secret features.',
+    link: 'https://github.com/InspirationAndMotivation/memory-game',
+    image: 'MemoryGame1.png',
+    stack: 'React, TypeScript, SCSS, HTML',
+  },
+  {
+    name: 'Weather App',
+    type: 'Pet project',
+    description:
+      'Main goal of the project was to develop web application for checking current weather based on obtained persons location or picked city. Weather Api was used to get weather data. Also implemented functionality for location detecting and temperature units selection. Im planning to implement getting cities from API and mobile view in future.',
+    link: 'https://github.com/InspirationAndMotivation/react-weather-app',
+    image: 'WeatherApp.png',
+    stack:
+      'React, TypeScript, CSS/SCSS, HTML, JavaScript, Redux, X-charts, Material UI',
+  },
+  {
     name: 'Scheduler',
     type: 'Pet project',
     description:
@@ -193,6 +212,15 @@ const projects = [
     link: 'https://github.com/InspirationAndMotivation/Scheduler',
     image: 'Scheduler_light.png',
     stack: 'React, TypeScript, SCSS, HTML, JavaScript, CSS',
+  },
+  {
+    name: 'Luxmed Application',
+    type: 'Pet project',
+    description:
+      'Main goal of the project was to develop web application for registration clients for an appointment with doctors and registration new doctors working in the company as well. Several forms were implemented where doctors could add the languages they speak, skills and other information about themselves. The project wasnt finished. However, the diamond of the project is the hand-written drop-down menu for language selecting, because there is implemented tags system without any libraries.',
+    link: 'https://github.com/InspirationAndMotivation/luxmed-website',
+    image: 'LuxmedApp1.png',
+    stack: 'React, HTML, CSS, JavaScript, React Forms',
   },
   {
     name: 'VisualTest',
@@ -221,7 +249,8 @@ const projects = [
       'Main goal of the project was to develop web application for ordering online and printing of the 3D Sculptures.',
     link: 'https://i.materialise.com/en/3dprint',
     image: 'Imaterialise.png',
-    stack: 'React, Typescript, Redux, React Hooks, HTML5, CSS/SCSS, Three.js, MaterialUI, GIT',
+    stack:
+      'React, Typescript, Redux, React Hooks, HTML5, CSS/SCSS, Three.js, MaterialUI, GIT',
   },
   {
     name: 'Dropie',
@@ -250,8 +279,8 @@ const languages = {
   fr: 'fr',
   pl: 'pl',
   ru: 'ru',
-  ua: 'ua'
-}
+  ua: 'ua',
+};
 
 export {
   meta,
@@ -262,5 +291,5 @@ export {
   introdata,
   contactConfig,
   socialprofils,
-  languages
+  languages,
 };
