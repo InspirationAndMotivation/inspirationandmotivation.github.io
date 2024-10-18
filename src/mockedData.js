@@ -190,7 +190,7 @@ const projects = [
     type: 'Pet project',
     description:
       'Main goal of the project was to develop web version of memory game, where you need to find pairs for every picture. Im planning to implement few more mods with higher difficulty and few more secret features.',
-    link: 'https://github.com/InspirationAndMotivation/memory-game',
+    link: 'https://bespoke-melba-037219.netlify.app/',
     image: 'MemoryGame1.png',
     stack: 'React, TypeScript, SCSS, HTML',
   },
