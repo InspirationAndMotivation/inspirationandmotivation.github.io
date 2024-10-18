@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.60a3f81d.css",
-    "main.js": "/static/js/main.246a929e.js",
+    "main.css": "/static/css/main.218c4c84.css",
+    "main.js": "/static/js/main.b7348d29.js",
     "static/media/Dropie.png": "/static/media/Dropie.3d610535242b4eaf50c5.png",
+    "static/media/LuxmedApp1.png": "/static/media/LuxmedApp1.028d13424f1fe0467923.png",
+    "static/media/MemoryGame1.png": "/static/media/MemoryGame1.361fc22b02a0848dff66.png",
+    "static/media/MemoryGame2.png": "/static/media/MemoryGame2.c4bb1f5151cc13642993.png",
     "static/media/main_image.png": "/static/media/main_image.a4e85b5be16e930b2103.png",
     "static/media/TestComplete.png": "/static/media/TestComplete.91a8c72b33c71a45b0fb.png",
     "static/media/VisualTest.png": "/static/media/VisualTest.93d127eb44f1314a9b4a.png",
+    "static/media/WeatherApp.png": "/static/media/WeatherApp.3f225621f92c3460c630.png",
     "static/media/primereact.png": "/static/media/primereact.5fa279a49ec6507abd43.png",
+    "static/media/LuxmedApp2.png": "/static/media/LuxmedApp2.20e778ca6b4f86825eaa.png",
     "static/media/sketch.png": "/static/media/sketch.e35c686f78b2e1ecf22d.png",
     "static/media/Imaterialise.png": "/static/media/Imaterialise.84b8fbe32f45dd18c568.png",
     "static/media/rxjs.png": "/static/media/rxjs.772ad85aa2f86471d69e.png",
@@ -28,11 +33,11 @@
     "static/media/typescript.png": "/static/media/typescript.492e2cd524f1a99b9faa.png",
     "static/media/sass.png": "/static/media/sass.a1ab75bbe28f7a98bc94.png",
     "index.html": "/index.html",
-    "main.60a3f81d.css.map": "/static/css/main.60a3f81d.css.map",
-    "main.246a929e.js.map": "/static/js/main.246a929e.js.map"
+    "main.218c4c84.css.map": "/static/css/main.218c4c84.css.map",
+    "main.b7348d29.js.map": "/static/js/main.b7348d29.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a3f81d.css",
-    "static/js/main.246a929e.js"
+    "static/css/main.218c4c84.css",
+    "static/js/main.b7348d29.js"
   ]
 }
