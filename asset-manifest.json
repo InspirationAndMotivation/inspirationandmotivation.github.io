@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fd393068.css",
-    "main.js": "/static/js/main.ca240a00.js",
+    "main.js": "/static/js/main.194358be.js",
     "static/media/Dropie.png": "/static/media/Dropie.3d610535242b4eaf50c5.png",
     "static/media/LuxmedApp1.png": "/static/media/LuxmedApp1.028d13424f1fe0467923.png",
     "static/media/MemoryGame1.png": "/static/media/MemoryGame1.361fc22b02a0848dff66.png",
@@ -34,10 +34,10 @@
     "static/media/sass.png": "/static/media/sass.a1ab75bbe28f7a98bc94.png",
     "index.html": "/index.html",
     "main.fd393068.css.map": "/static/css/main.fd393068.css.map",
-    "main.ca240a00.js.map": "/static/js/main.ca240a00.js.map"
+    "main.194358be.js.map": "/static/js/main.194358be.js.map"
   },
   "entrypoints": [
     "static/css/main.fd393068.css",
-    "static/js/main.ca240a00.js"
+    "static/js/main.194358be.js"
   ]
 }
