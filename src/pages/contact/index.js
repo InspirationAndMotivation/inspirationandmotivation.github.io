@@ -57,7 +57,7 @@ export const ContactMe = () => {
                       <Form.Label>{t('pages.contact.formName')}</Form.Label>
                       <Form.Control
                         type="text"
-                        name="user_name"
+                        name="from_name"
                         placeholder={t('pages.contact.formName')}
                         required
                       />
@@ -69,7 +69,7 @@ export const ContactMe = () => {
                       <Form.Label>{t('pages.contact.formMail')}</Form.Label>
                       <Form.Control
                         type="email"
-                        name="user_email"
+                        name="from_email"
                         placeholder={t('pages.contact.formMail')}
                         required
                       />
