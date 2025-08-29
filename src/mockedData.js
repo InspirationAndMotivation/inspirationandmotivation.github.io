@@ -263,12 +263,6 @@ const projects = [
   },
 ];
 
-const contactConfig = {
-  contact_email: ' anastasia.pranovych@gmail.com',
-  contact_phone: ' +1 (403) 992-0692',
-  contact_address: ' Canada, Calgary, T2N 1V9',
-};
-
 const socialprofils = {
   github: 'https://github.com/InspirationAndMotivation',
   linkedin: 'https://www.linkedin.com/in/anastasia-pranovych',
@@ -289,7 +283,6 @@ export {
   skills,
   projects,
   introdata,
-  contactConfig,
   socialprofils,
   languages,
 };

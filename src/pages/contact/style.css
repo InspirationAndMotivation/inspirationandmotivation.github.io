@@ -8,6 +8,17 @@
   margin-right: 3rem;
 }
 
+.send_button {
+  background-color: var(--text-color-3);
+  color: var(--button-text-color);
+  border: none;
+  cursor: pointer;
+}
+.send_button:hover {
+  background-color: var(--text-color-4);
+  transition: all 0.3s ease;
+}
+
 @media (max-width: 450px) {
   .text {
     font-size: 1rem !important;

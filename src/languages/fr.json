@@ -1,68 +1,69 @@
 {
-    "translation": {
-        "social": {
-            "follow": "S'abonner"
-        },
-        "header": {
-            "home": "Accueil",
-            "about": "Sur moi",
-            "portfolio": "Portfolio",
-            "contact": "Contact"
-        },
-        "pages": {
-            "about": {
-                "title": "Sur moi",
-                "me": "Sur moi",
-                "workTimeline": "Expérience professionnelle",
-                "education": "Formation",
-                "skills": "Сompétences"
-            },
-            "contact": {
-                "title": "Contact",
-                "me": "Contact",
-                "getInTouch": "Restons en contact",
-                "email": "Email: ",
-                "phone": "Téléphone: ",
-                "location": "Adresse: ",
-                "descFirstLine": "Veuillez me contacter via Whatsapp, Linkedin ou par e-mail.",
-                "descSecondLine": "Puisque je peux être à l'étranger.",
-                "descThirdLine": "Merci beaucoup!"
-            },
-            "home": {
-                "title": "Accueil",
-                "abtButton": "Sur moi",
-                "cntButton": "Contact",
-                "introdata": {
-                    "title": "Je Anastasia Pranovych",
-                    "firstLine": "Je m'appelle Anastasia et je travaille dans le développement Frontend depuis près de 4 ans.",
-                    "secondLine": "J'utilise principalement React, mais à l'avenir je souhaite également maîtriser le développement Backend pour devenir un développeur FullStack à part entière. Je suis passionné par les nouvelles technologies et j'aime beaucoup l'IA et son évolution, j'aimerais donc l'utiliser dans mon travail car je pense que c'est l'avenir.",
-                    "thirdLine": "De plus, je m'intéresse au design et au dessin afin de mieux comprendre les clients et designers avec qui je collabore. Et parfois, je crée moi-même certaines illustrations et icônes, ainsi que des designs pour les sites Web sur lesquels je travaille."
-                }
-            },
-            "portfolio": {
-                "title": "Portfolio",
-                "projectsInfo": "Voici quelques-uns des projets sur lesquels j'ai travaillé au cours des dernières années.",
-                "stack": "Stack:"
-            }
-        },
-        "mocked": {
-            "title": "Je Anastasia Pranovych",
-            "education": {
-                "school1": "School"
-            },
-            "projects": {
-                "type": {
-                    "commercial": "Projet commercial",
-                    "pet": "Pet projet"
-                },
-                "descriptions": {
-                    "project1": "L'objectif principal du projet était de développer une application Web permettant de planifier des réunions et des événements à partir de zéro sans utiliser aucune bibliothèque.",
-                    "project2": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé permettant de déboguer les tests et de détecter les régressions visuelles.",
-                    "project3": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé avec des fonctionnalités étendues pour tester les interfaces graphiques.",
-                    "project4": "L'objectif principal du projet était de développer une application Web permettant de commander en ligne et d'imprimer des sculptures 3D.",
-                    "project5": "L'objectif principal du projet était de développer une application mobile pour la location de véhicules (scooters, vélos, bateaux à moteur, voitures), une application Web pour gérer une application mobile et une application Web destinée à l'utilisation des clients."
-                }
-            }
+  "translation": {
+    "social": {
+      "follow": "S'abonner"
+    },
+    "header": {
+      "home": "Accueil",
+      "about": "Sur moi",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "pages": {
+      "about": {
+        "title": "Sur moi",
+        "me": "Sur moi",
+        "workTimeline": "Expérience professionnelle",
+        "education": "Formation",
+        "skills": "Сompétences"
+      },
+      "contact": {
+        "title": "Contact",
+        "me": "Contact",
+        "getInTouch": "Restons en contact",
+        "formMessage": "Votre message",
+        "formMail": "Votre e-mail",
+        "formName": "Votre nom",
+        "sendMessage": "Envoyer",
+        "descFirstLine": "Veuillez me contacter via Linkedin ou utiliser le formulaire.",
+        "descSecondLine": "Veuillez ne pas spammer ; un seul message suffit.",
+        "descThirdLine": "Merci beaucoup! Bonne journée !"
+      },
+      "home": {
+        "title": "Accueil",
+        "abtButton": "Sur moi",
+        "cntButton": "Contact",
+        "introdata": {
+          "title": "Je Anastasia Pranovych",
+          "firstLine": "Je m'appelle Anastasia et je travaille dans le développement Frontend depuis près de 4 ans.",
+          "secondLine": "J'utilise principalement React, mais à l'avenir je souhaite également maîtriser le développement Backend pour devenir un développeur FullStack à part entière. Je suis passionné par les nouvelles technologies et j'aime beaucoup l'IA et son évolution, j'aimerais donc l'utiliser dans mon travail car je pense que c'est l'avenir.",
+          "thirdLine": "De plus, je m'intéresse au design et au dessin afin de mieux comprendre les clients et designers avec qui je collabore. Et parfois, je crée moi-même certaines illustrations et icônes, ainsi que des designs pour les sites Web sur lesquels je travaille."
         }
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "projectsInfo": "Voici quelques-uns des projets sur lesquels j'ai travaillé au cours des dernières années.",
+        "stack": "Stack:"
+      }
+    },
+    "mocked": {
+      "title": "Je Anastasia Pranovych",
+      "education": {
+        "school1": "School"
+      },
+      "projects": {
+        "type": {
+          "commercial": "Projet commercial",
+          "pet": "Pet projet"
+        },
+        "descriptions": {
+          "project1": "L'objectif principal du projet était de développer une application Web permettant de planifier des réunions et des événements à partir de zéro sans utiliser aucune bibliothèque.",
+          "project2": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé permettant de déboguer les tests et de détecter les régressions visuelles.",
+          "project3": "L'objectif principal du projet était de développer une version Web de l'outil de test automatisé avec des fonctionnalités étendues pour tester les interfaces graphiques.",
+          "project4": "L'objectif principal du projet était de développer une application Web permettant de commander en ligne et d'imprimer des sculptures 3D.",
+          "project5": "L'objectif principal du projet était de développer une application mobile pour la location de véhicules (scooters, vélos, bateaux à moteur, voitures), une application Web pour gérer une application mobile et une application Web destinée à l'utilisation des clients."
+        }
+      }
     }
+  }
 }

@@ -1,68 +1,69 @@
 {
-    "translation": {
-        "social": {
-            "follow": "Subskrybuj"
-        },
-        "header": {
-            "home": "Główna",
-            "about": "O mnie",
-            "portfolio": "Portfolio",
-            "contact": "Kontakt"
-        },
-        "pages": {
-            "about": {
-                "title": "O mnie",
-                "me": "O mnie",
-                "workTimeline": "Doświadczenie zawodowe",
-                "education": "Wykształcenie",
-                "skills": "Moje kompetencje"
-            },
-            "contact": {
-                "title": "Kontakt",
-                "me": "Kontakt",
-                "getInTouch": "Bądź ze mną w kontakcie!",
-                "email": "Email: ",
-                "phone": "Telefon: ",
-                "location": "Lokalizacja: ",
-                "descFirstLine": "Proszę kontaktować się ze mną za pośrednictwem Whatsapp, Linkedin lub pisać na pocztę.",
-                "descSecondLine": "Ponieważ ja mogę być poza krajem.",
-                "descThirdLine": "Ślicznie dziękuję i życzę miłego dnia!"
-            },
-            "home": {
-                "title": "Główna",
-                "abtButton": "O mnie",
-                "cntButton": "Kontaktuj",
-                "introdata": {
-                    "title": "Jestem Anastazją Pranovych",
-                    "firstLine": "Nazywam się Anastazja, pracuję w branży Frontend Development od blisko 4 lat.",
-                    "secondLine": "Głównie używam React, ale w przyszłości chcę rozwijać się także jako Backend developer, aby zostać pełnoprawnym FullStack programistą. Fascynują mnie nowe technologie w tym bardzo podoba mi się sztuczna inteligencja i jej ewolucja, dlatego chciałabym ją wykorzystywać również w swoim życiu zawodowym.",
-                    "thirdLine": "Jednocześnie z tym interesuję się designem i rysunkiem, dlatego czasami samodzielnie tworzę ilustracje i ikony, a także projekty stron internetowych, nad którymi pracuję. To pomaga mi lepiej rozumieć co chcę klient lub designer oraz jak to zaimplementować."
-                }
-            },
-            "portfolio": {
-                "title": "Portfolio",
-                "projectsInfo": "Tutaj są przedstawione niektóre projekty, nad którymi pracowałam przez ostatnie kilka lat.",
-                "stack": "Stack:"
-            }
-        },
-        "mocked": {
-            "title": "Jestem Anastazją Pranovych",
-            "education": {
-                "school1": "School"
-            },
-            "projects": {
-                "type": {
-                    "commercial": "Projekt komercyjny",
-                    "pet": "Pet projekt"
-                },
-                "descriptions": {
-                    "project1": "Głównym celem projektu było stworzenie od podstaw aplikacji internetowej umożliwiającej planowanie spotkań i wydarzeń, bez korzystania z bibliotek.",
-                    "project2": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania, które umożliwia debugowanie testów i wykrywanie regresji wizualnych.",
-                    "project3": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania z rozbudowanymi funkcjonalnościami do testowania GUI.",
-                    "project4": "Głównym celem projektu było stworzenie aplikacji internetowej umożliwiającej zamówienie on-line wydrukowanych na 3D drukarce rzeźb.",
-                    "project5": "Głównym celem projektu było opracowanie aplikacji mobilnej do wynajmu pojazdów (skuterów, rowerów, łodzi motorowych, samochodów itp.), aplikacji internetowej do zarządzania aplikacją mobilną oraz aplikacji internetowej do użytku klienta."
-                }
-            }
+  "translation": {
+    "social": {
+      "follow": "Subskrybuj"
+    },
+    "header": {
+      "home": "Główna",
+      "about": "O mnie",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "pages": {
+      "about": {
+        "title": "O mnie",
+        "me": "O mnie",
+        "workTimeline": "Doświadczenie zawodowe",
+        "education": "Wykształcenie",
+        "skills": "Moje kompetencje"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "me": "Kontakt",
+        "getInTouch": "Bądź ze mną w kontakcie!",
+        "formMessage": "Twoja wiadomość",
+        "formMail": "Twój e-mail",
+        "formName": "Twoje imię",
+        "sendMessage": "Wyślij",
+        "descFirstLine": "Skontaktować się ze mną można za pośrednictwem Linkedin lub skorzystać z formy.",
+        "descSecondLine": "Proszę nie spamować, jednej wiadomości wystarczy.",
+        "descThirdLine": "Ślicznie dziękuję i życzę miłego dnia!"
+      },
+      "home": {
+        "title": "Główna",
+        "abtButton": "O mnie",
+        "cntButton": "Kontaktuj",
+        "introdata": {
+          "title": "Jestem Anastazją Pranovych",
+          "firstLine": "Nazywam się Anastazja, pracuję w branży Frontend Development od blisko 4 lat.",
+          "secondLine": "Głównie używam React, ale w przyszłości chcę rozwijać się także jako Backend developer, aby zostać pełnoprawnym FullStack programistą. Fascynują mnie nowe technologie w tym bardzo podoba mi się sztuczna inteligencja i jej ewolucja, dlatego chciałabym ją wykorzystywać również w swoim życiu zawodowym.",
+          "thirdLine": "Jednocześnie z tym interesuję się designem i rysunkiem, dlatego czasami samodzielnie tworzę ilustracje i ikony, a także projekty stron internetowych, nad którymi pracuję. To pomaga mi lepiej rozumieć co chcę klient lub designer oraz jak to zaimplementować."
         }
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "projectsInfo": "Tutaj są przedstawione niektóre projekty, nad którymi pracowałam przez ostatnie kilka lat.",
+        "stack": "Stack:"
+      }
+    },
+    "mocked": {
+      "title": "Jestem Anastazją Pranovych",
+      "education": {
+        "school1": "School"
+      },
+      "projects": {
+        "type": {
+          "commercial": "Projekt komercyjny",
+          "pet": "Pet projekt"
+        },
+        "descriptions": {
+          "project1": "Głównym celem projektu było stworzenie od podstaw aplikacji internetowej umożliwiającej planowanie spotkań i wydarzeń, bez korzystania z bibliotek.",
+          "project2": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania, które umożliwia debugowanie testów i wykrywanie regresji wizualnych.",
+          "project3": "Głównym celem projektu było opracowanie internetowej wersji narzędzia do automatycznego testowania z rozbudowanymi funkcjonalnościami do testowania GUI.",
+          "project4": "Głównym celem projektu było stworzenie aplikacji internetowej umożliwiającej zamówienie on-line wydrukowanych na 3D drukarce rzeźb.",
+          "project5": "Głównym celem projektu było opracowanie aplikacji mobilnej do wynajmu pojazdów (skuterów, rowerów, łodzi motorowych, samochodów itp.), aplikacji internetowej do zarządzania aplikacją mobilną oraz aplikacji internetowej do użytku klienta."
+        }
+      }
     }
+  }
 }
