@@ -25,6 +25,8 @@
         "formMail": "Twój e-mail",
         "formName": "Twoje imię",
         "sendMessage": "Wyślij",
+        "formSucces": "Dziękuję! Wiadomość została pomyślnie wysłana.",
+        "formError": "Przepraszam, niestety wiadomość nie została wysłana z powodu następującego błędu:",
         "descFirstLine": "Skontaktować się ze mną można za pośrednictwem Linkedin lub skorzystać z formy.",
         "descSecondLine": "Proszę nie spamować, jednej wiadomości wystarczy.",
         "descThirdLine": "Ślicznie dziękuję i życzę miłego dnia!"

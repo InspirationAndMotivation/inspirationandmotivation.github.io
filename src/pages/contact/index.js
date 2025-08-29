@@ -22,10 +22,10 @@ export const ContactMe = () => {
       )
       .then(
         (result) => {
-          alert('Thank you! Message sent successfully ✅');
+          alert(t('pages.contact.formSucces'));
         },
         (error) => {
-          alert("Sorry, message wasn't because of next error: " + error.text);
+          alert(t('pages.contact.formError') + error.text);
         }
       );
   };

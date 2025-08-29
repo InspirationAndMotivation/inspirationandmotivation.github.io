@@ -25,6 +25,8 @@
         "formMail": "Your Email",
         "formName": "Your Name",
         "sendMessage": "Send",
+        "formSucces": "Thank you! Message sent successfully.",
+        "formError": "Sorry, the message wasn't sent because of the following error:",
         "descFirstLine": "Please, contact me via Linkedin or use the form.",
         "descSecondLine": "Please, don't spam - one message is enough.",
         "descThirdLine": "Thank you! Have a nice day!"
