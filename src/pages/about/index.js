@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import {
   meta,
   worktimeline,
@@ -18,22 +18,21 @@ export const About = () => {
       <Container className="about_page">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {t('pages.about.title')} | {meta.title}</title>
+          <title>
+            {' '}
+            {t('pages.about.title')} | {meta.title}
+          </title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-3 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-5 mb-4">
-              {t('pages.about.me')}
-            </h1>
+            <h2 className="display-5 mb-4">{t('pages.about.me')}</h2>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className=" sec_sp">
           <Col lg="3">
-            <h3 className="color_sec py-4">
-              {t('pages.about.workTimeline')}
-            </h3>
+            <h3 className="color_sec py-4">{t('pages.about.workTimeline')}</h3>
           </Col>
           <Col lg="9">
             <table className="table caption-top">
@@ -56,9 +55,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="3">
-            <h3 className="color_sec py-4">
-              {t('pages.about.education')}
-            </h3>
+            <h3 className="color_sec py-4">{t('pages.about.education')}</h3>
           </Col>
           <Col lg="9">
             <table className="table caption-top">
@@ -81,9 +78,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="3">
-            <h3 className="color_sec py-4">
-              {t('pages.about.skills')}
-            </h3>
+            <h3 className="color_sec py-4">{t('pages.about.skills')}</h3>
           </Col>
           <Col lg="9">
             <div className="skill_container">

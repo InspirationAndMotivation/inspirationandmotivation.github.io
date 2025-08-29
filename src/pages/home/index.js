@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Typewriter from 'typewriter-effect';
 import { introdata, meta } from '../../mockedData';
 import { Link } from 'react-router-dom';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import mainImage from '../../assets/images/main_image.png';
 
 export const Home = () => {
@@ -23,7 +23,7 @@ export const Home = () => {
             <div className="home_page align-self-center d-flex justify-content-around w-100">
               <div className="intro mx-3">
                 <h2 className="mb-1x">{t('pages.home.introdata.title')}</h2>
-                <h1 className="fluidz-48 mb-4">
+                <h2 className="fluidz-48 mb-4">
                   <Typewriter
                     options={{
                       strings: [
@@ -38,7 +38,7 @@ export const Home = () => {
                       deleteSpeed: 10,
                     }}
                   />
-                </h1>
+                </h2>
                 <p className="mb-2">{t('pages.home.introdata.firstLine')}</p>
                 <p className="mb-2">{t('pages.home.introdata.secondLine')}</p>
                 <p className="mb-5">{t('pages.home.introdata.thirdLine')}</p>

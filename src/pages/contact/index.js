@@ -42,7 +42,7 @@ export const ContactMe = () => {
         </Helmet>
         <Row className="mb-3 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-5 mb-4">{t('pages.contact.me')}</h1>
+            <h2 className="display-5 mb-4">{t('pages.contact.me')}</h2>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
