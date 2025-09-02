@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd393068.css",
-    "main.js": "/static/js/main.194358be.js",
+    "main.css": "/static/css/main.7401baa7.css",
+    "main.js": "/static/js/main.887395f8.js",
     "static/media/Dropie.png": "/static/media/Dropie.3d610535242b4eaf50c5.png",
     "static/media/LuxmedApp1.png": "/static/media/LuxmedApp1.028d13424f1fe0467923.png",
     "static/media/MemoryGame1.png": "/static/media/MemoryGame1.361fc22b02a0848dff66.png",
@@ -33,11 +33,11 @@
     "static/media/typescript.png": "/static/media/typescript.492e2cd524f1a99b9faa.png",
     "static/media/sass.png": "/static/media/sass.a1ab75bbe28f7a98bc94.png",
     "index.html": "/index.html",
-    "main.fd393068.css.map": "/static/css/main.fd393068.css.map",
-    "main.194358be.js.map": "/static/js/main.194358be.js.map"
+    "main.7401baa7.css.map": "/static/css/main.7401baa7.css.map",
+    "main.887395f8.js.map": "/static/js/main.887395f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd393068.css",
-    "static/js/main.194358be.js"
+    "static/css/main.7401baa7.css",
+    "static/js/main.887395f8.js"
   ]
 }
