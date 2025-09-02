@@ -8,6 +8,43 @@
   margin-right: 3rem;
 }
 
+.progress_bar {
+  height: 4px;
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.progress_bar_success {
+  background-color: var(--text-color-5);
+}
+
+.progress_bar_error {
+  background-color: var(--text-color-3);
+}
+
+.close_btn {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.close_btn:hover {
+  color: var(--text-color-3);
+}
+
+.success_message {
+  color: var(--text-color-5);
+}
+
+.error_message {
+  color: var(--text-color-3);
+}
+
 .send_button {
   background-color: var(--text-color-3);
   color: var(--button-text-color);

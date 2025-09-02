@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './style.css';
 import emailjs from 'emailjs-com';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -9,6 +9,17 @@ import { useTranslation } from 'react-i18next';
 export const ContactMe = () => {
   const { t } = useTranslation();
   const form = useRef();
+  const [alertVisible, setAlertVisible] = useState(false);
+  const [errorOccured, setErrorOccured] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+  const [progressWidth, setProgressWidth] = useState('100%');
+
+  const closeAlert = () => {
+    setAlertVisible(false);
+    setErrorOccured(false);
+    setErrorMessage('');
+    setProgressWidth('100%');
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,11 +32,27 @@ export const ContactMe = () => {
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
-        (result) => {
-          alert(t('pages.contact.formSucces'));
+        () => {
+          setAlertVisible(true);
+          setProgressWidth('100%');
+
+          setTimeout(() => setProgressWidth('0%'), 1);
+
+          setTimeout(() => setAlertVisible(false), 5000);
         },
         (error) => {
-          alert(t('pages.contact.formError') + error.text);
+          setErrorOccured(true);
+          setErrorMessage(error.text);
+          setAlertVisible(true);
+          setProgressWidth('100%');
+
+          setTimeout(() => setProgressWidth('0%'), 1);
+
+          setTimeout(() => {
+            setAlertVisible(false);
+            setErrorOccured(false);
+            setErrorMessage('');
+          }, 5000);
         }
       );
   };
@@ -33,6 +60,39 @@ export const ContactMe = () => {
   return (
     <HelmetProvider>
       <Container className="contact_page">
+        <div className="status_message">
+          {alertVisible && (
+            <div className="fixed py-4">
+              <div
+                className={`${
+                  errorOccured ? 'error_message' : 'success_message'
+                } text-lg font-semibold mb-2`}
+              >
+                <button
+                  onClick={closeAlert}
+                  className="close_btn absolute flex items-center justify-center"
+                  aria-label="Close"
+                >
+                  &times;
+                </button>
+                {errorOccured
+                  ? t('pages.contact.formError') + errorMessage
+                  : t('pages.contact.formSucces')}
+              </div>
+
+              <div
+                className={`progress_bar h-1 rounded ${
+                  errorOccured ? 'progress_bar_error' : 'progress_bar_success'
+                }`}
+                style={{
+                  width: progressWidth,
+                  transition: 'width 5s linear',
+                }}
+              ></div>
+            </div>
+          )}
+        </div>
+
         <Helmet>
           <meta charSet="utf-8" />
           <title>
@@ -52,7 +112,7 @@ export const ContactMe = () => {
             <div className="pb-4">
               <Form ref={form} onSubmit={sendEmail}>
                 <Row className="mb-3">
-                  <Col md={6}>
+                  <Col md={6} className="pt-2">
                     <Form.Group controlId="formName">
                       <Form.Label>{t('pages.contact.formName')}</Form.Label>
                       <Form.Control
@@ -64,7 +124,7 @@ export const ContactMe = () => {
                     </Form.Group>
                   </Col>
 
-                  <Col md={6}>
+                  <Col md={6} className="pt-2">
                     <Form.Group controlId="formEmail">
                       <Form.Label>{t('pages.contact.formMail')}</Form.Label>
                       <Form.Control
