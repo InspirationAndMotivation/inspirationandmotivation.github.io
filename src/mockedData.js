@@ -18,13 +18,13 @@ const worktimeline = [
     jobtitle: 'React Software Engineer',
     employer: 'SmartBear Software',
     where: 'Poland, Wrocław',
-    date: '03.2023 - 06.2024',
+    date: '03.2023 - 03.2025',
   },
   {
     jobtitle: 'Frontend Software Developer',
     employer: 'Stellarity',
     where: 'Poland, Wrocław',
-    date: '10.2021 - 02.2023',
+    date: '10.2021 - 03.2023',
   },
   {
     jobtitle: 'Frontend Software Developer',
@@ -35,6 +35,24 @@ const worktimeline = [
 ];
 
 const educationtimeline = [
+  {
+    school: 'Introduction to Databases for Back-End Development by Meta',
+    where: 'Online',
+    degree: 'Certificate',
+    date: '11/2024-12/2024',
+  },
+  {
+    school: 'Redux in JavaScript and React by Scrimba',
+    where: 'Online',
+    degree: 'Certificate',
+    date: '11/2024-12/2024',
+  },
+  {
+    school: 'Getting started with Flutter Development by Google Cloud',
+    where: 'Online',
+    degree: 'Certificate',
+    date: '06/2024-07/2024',
+  },
   {
     school: 'Advanced React by Meta',
     where: 'Online',
