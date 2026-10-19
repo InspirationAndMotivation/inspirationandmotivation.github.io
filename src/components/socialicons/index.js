@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { socialprofils } from '../../mockedData';
 
@@ -25,6 +25,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
+      <span className="stick_line"></span>
       <p>{t('social.follow')}</p>
     </div>
   );

@@ -27,18 +27,6 @@ const Header = () => {
   const handleChangeLanguage = (event) => {
     localStorage.setItem('selectedLanguage', event.target.value);
     i18n.changeLanguage(event.target.value);
-    handleStylingFixes(event.target.value);
-  };
-
-  const handleStylingFixes = (language) => {
-    const stick_follow_icon = document.querySelectorAll('.stick_follow_icon p');
-    if (!language.localeCompare('ru')) {
-      stick_follow_icon[0].style.width = '120px';
-      stick_follow_icon[0].style.height = '72px';
-    } else {
-      stick_follow_icon[0].style.width = '68px';
-      stick_follow_icon[0].style.height = '20px';
-    }
   };
 
   return (
