@@ -1,34 +1,45 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { languages } from '../mockedData';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import './style.css';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const [isActive, setActive] = useState('false');
+  const [isActive, setActive] = useState(false);
+  const location = useLocation();
+
+  const handleNavClick = (e, targetPath) => {
+    if (location.pathname === targetPath) {
+      e.preventDefault();
+      return;
+    }
+
+    handleToggle();
+  };
 
   const handleToggle = () => {
-    setActive(!isActive);
+    if (isActive) return;
+
+    setActive((prev) => !prev);
   };
 
   const handleChangeLanguage = (event) => {
-    localStorage.setItem("selectedLanguage", event.target.value);
+    localStorage.setItem('selectedLanguage', event.target.value);
     i18n.changeLanguage(event.target.value);
     handleStylingFixes(event.target.value);
-  }
+  };
 
   const handleStylingFixes = (language) => {
-    const stick_follow_icon = document.querySelectorAll(".stick_follow_icon p");
-    if (!language.localeCompare("ru")) {
-      stick_follow_icon[0].style.width = "120px";
-      stick_follow_icon[0].style.height = "72px";
+    const stick_follow_icon = document.querySelectorAll('.stick_follow_icon p');
+    if (!language.localeCompare('ru')) {
+      stick_follow_icon[0].style.width = '120px';
+      stick_follow_icon[0].style.height = '72px';
     } else {
-      stick_follow_icon[0].style.width = "68px";
-      stick_follow_icon[0].style.height = "20px";
+      stick_follow_icon[0].style.width = '68px';
+      stick_follow_icon[0].style.height = '20px';
     }
-  }
-
+  };
 
   return (
     <>
@@ -40,33 +51,69 @@ const Header = () => {
           <div className="menu__container p-3">
             <ul className="menu">
               <li className="menu_item home">
-                <Link onClick={handleToggle} to={'/'} className="my-3">
+                <Link
+                  onClick={(e) => handleNavClick(e, '/')}
+                  to={'/'}
+                  className="my-3"
+                >
                   {t('header.home')}
                 </Link>
               </li>
               <li className="menu_item about">
-                <Link onClick={handleToggle} to="/about" className="my-3">
+                <Link
+                  onClick={(e) => handleNavClick(e, '/about')}
+                  to="/about"
+                  className="my-3"
+                >
                   {t('header.about')}
                 </Link>
               </li>{' '}
               <li className="menu_item portfolio">
-                <Link onClick={handleToggle} to="/portfolio" className="my-3">
+                <Link
+                  onClick={(e) => handleNavClick(e, '/portfolio')}
+                  to="/portfolio"
+                  className="my-3"
+                >
                   {t('header.portfolio')}
                 </Link>
               </li>
               <li className="menu_item contact">
-                <Link onClick={handleToggle} to="/contact" className="my-3">
+                <Link
+                  onClick={(e) => handleNavClick(e, '/contact')}
+                  to="/contact"
+                  className="my-3"
+                >
                   {' '}
                   {t('header.contact')}
                 </Link>
               </li>
               <li className="menu_item language">
-                <select name="language_picker_select" id="language_picker_select" className="lg_select" onChange={handleChangeLanguage}>
-                  <option lang={languages.en} value={languages.en}>EN</option>
-                  <option lang={languages.fr} value={languages.fr}>FR</option>
-                  <option lang={languages.pl} value={languages.pl}>PL</option>
-                  <option lang={languages.ru} value={languages.ru}>RU</option>
-                  <option lang={languages.ua} value={languages.ua}>UA</option>
+                <select
+                  name="language_picker_select"
+                  id="language_picker_select"
+                  className="lg_select"
+                  value={
+                    i18n.language ||
+                    localStorage.getItem('selectedLanguage') ||
+                    languages.en
+                  }
+                  onChange={handleChangeLanguage}
+                >
+                  <option lang={languages.en} value={languages.en}>
+                    EN
+                  </option>
+                  <option lang={languages.fr} value={languages.fr}>
+                    FR
+                  </option>
+                  <option lang={languages.pl} value={languages.pl}>
+                    PL
+                  </option>
+                  <option lang={languages.ru} value={languages.ru}>
+                    RU
+                  </option>
+                  <option lang={languages.ua} value={languages.ua}>
+                    UA
+                  </option>
                 </select>
               </li>
             </ul>

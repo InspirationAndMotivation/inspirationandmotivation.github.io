@@ -15,6 +15,12 @@ const introdata = {
 
 const worktimeline = [
   {
+    jobtitle: 'Fullstack Software Engineer',
+    employer: 'Goodweb',
+    where: 'Poland, Warsaw',
+    date: '11.2025 - now',
+  },
+  {
     jobtitle: 'React Software Engineer',
     employer: 'SmartBear Software',
     where: 'Poland, Wrocław',
@@ -36,34 +42,40 @@ const worktimeline = [
 
 const educationtimeline = [
   {
+    school: 'Advanced Cypress Testing',
+    where: 'Online',
+    degree: 'Certificate',
+    date: '06/2026',
+  },
+  {
     school: 'Introduction to Databases for Back-End Development by Meta',
     where: 'Online',
     degree: 'Certificate',
-    date: '11/2024-12/2024',
+    date: '12/2024',
   },
   {
     school: 'Redux in JavaScript and React by Scrimba',
     where: 'Online',
     degree: 'Certificate',
-    date: '11/2024-12/2024',
+    date: '11/2024',
   },
   {
     school: 'Getting started with Flutter Development by Google Cloud',
     where: 'Online',
     degree: 'Certificate',
-    date: '06/2024-07/2024',
+    date: '07/2024',
   },
   {
     school: 'Advanced React by Meta',
     where: 'Online',
     degree: 'Certificate',
-    date: '04/2024-05/2024',
+    date: '05/2024',
   },
   {
     school: 'Learn HTML and CSS by Scrimba',
     where: 'Online',
     degree: 'Certificate',
-    date: '04/2024-05/2024',
+    date: '04/2024',
   },
   {
     school: 'UX/UI Design Course by Maria Hres',
@@ -203,6 +215,25 @@ const skills = [
 ];
 
 const projects = [
+  {
+    name: 'Johnny Silverhand Mini Player',
+    type: 'Pet project',
+    description:
+      'A compact, Cyberpunk 2077-themed web audio player built around the iconic character Johnny Silverhand. Designed with custom UI, atmospheric audio visualizer, and smooth sound controls.',
+    link: 'https://johnny-s-player.pages.dev/',
+    image: 'Johnny.png',
+    stack: 'JavaScript, CSS, HTML, HTML5 Canvas',
+  },
+  {
+    name: 'ANANTA (Interactive Clone)',
+    type: 'Pet project',
+    description:
+      'An interactive web landing page inspired by the ANANTA game website, focusing on advanced scroll-driven animations and scrollytelling mechanics.',
+    link: 'https://inspirationandmotivation.github.io/ananta-scrollytelling/',
+    image: 'Ananta.png',
+    stack:
+      'GASP, HTML, HTML5 Canvas, React, JavaScript, Tailwind CSS, Video API',
+  },
   {
     name: 'Memory game',
     type: 'Pet project',

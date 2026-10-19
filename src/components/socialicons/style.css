@@ -41,7 +41,7 @@
   transition: all 0.3s;
 }
 
-.stick_follow_icon p:after {
+/* .stick_follow_icon p:after {
   top: 15px;
   right: -110px;
   width: 45px;
@@ -50,6 +50,19 @@
   display: block;
   position: absolute;
   background-color: var(--text-color);
+} */
+
+.stick_follow_icon p:after {
+  top: 75%;
+  left: calc(100% + 105px);
+  right: auto;
+  width: 25px;
+  height: 1px;
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: var(--text-color);
+  transform: translateY(-50%);
 }
 
 @media (max-width: 600px) {

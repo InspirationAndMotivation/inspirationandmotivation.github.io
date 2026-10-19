@@ -3,6 +3,7 @@
 }
 
 .page-enter-active {
+  pointer-events: none;
   transform: translateY(0%);
   transition: all 400ms ease-out;
 }
@@ -16,6 +17,7 @@
 }
 
 .page-exit-active {
+  pointer-events: none;
   position: absolute;
   left: 0;
   right: 0;
